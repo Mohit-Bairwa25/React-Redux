@@ -1,0 +1,15 @@
+npx create-react-app .
+this command will create the react app in your current folder thaking the folder name as app name
+
+npm naming restrictions:
+Uniqueness: Choose a unique name that is not already owned by someone else.
+Descriptive: Make the name descriptive of your package’s purpose.
+No Offensive Names: Avoid offensive or inappropriate names.
+No Trademark Violations: Do not use someone else’s trademarked name.
+No Uppercase Letters: Package names must be all lowercase.
+URL Safe: Ensure the name is URL-safe.
+Length: Keep the name under 214 characters.
+Hyphens for Multi-Word Names: Separate multi-word package names using hyphens, not underscores.
+
+To Start app
+npm start
