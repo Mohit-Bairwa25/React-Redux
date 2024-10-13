@@ -1,0 +1,6 @@
+tree command with the /F flag to include both files and folders:
+tree /F
+tree /F /A
+
+PowerShell command to achieve similar functionality:
+Get-ChildItem -Recurse | Format-List FullName
