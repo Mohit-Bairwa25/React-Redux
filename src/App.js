@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Changed to HashRouter
 import './App.css';
 import Navbar from './Navbar';
 import Shop from './Shop';
 import { Provider } from 'react-redux';
-import store from './state/store'; // Make sure this path is correct
+import store from './state/store'; // Ensure this path is correct
 
 function App() {
   return (
